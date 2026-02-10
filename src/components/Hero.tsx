@@ -2,7 +2,7 @@ import { CheckCircle, ShieldCheck, Zap, ArrowRight } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="relative overflow-hidden pt-32 pb-20 w-full">
+    <section className="relative overflow-hidden h-screen w-full flex items-center justify-center">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
@@ -21,17 +21,12 @@ export const Hero = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white">
-              Tire seu <br />
-              negócio do <br />
-              papel{" "}
-              <span className="text-lime-400">
-                do jeito <br /> certo
-              </span>
+              Tire seu negócio do papel em 7 dias
             </h1>
 
             <p className="text-gray-200 text-lg max-w-lg">
-              Um guia prático para organizar o início, evitar erros caros e
-              começar com segurança, mesmo com pouco dinheiro.
+                        Um guia prático, sem romantização, para tirar seu negócio do papel do jeito
+            certo, mesmo com pouco dinheiro, pouco tempo e nenhum investidor.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -58,8 +53,6 @@ export const Hero = () => {
           </div>
 
           <div className="relative flex justify-center lg:justify-end">
-            {/* Background Glow */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-lime-400/20 rounded-full blur-[100px] -z-10"></div>
 
             {/* Book Mockup */}
             <div className="relative w-[300px] h-[400px] bg-gray-900 rounded-r-2xl shadow-2xl border-l-8 border-lime-900 transform rotate-y-12 rotate-3 hover:rotate-0 transition-all duration-500 group cursor-pointer">

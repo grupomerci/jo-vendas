@@ -5,7 +5,7 @@ export const TargetAudience = () => {
     <section className="py-20 px-4 md:px-8 bg-gray-50 text-gray-900">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h4 className="text-sm font-bold tracking-widest uppercase text-gray-500 mb-2">
+          <h4 className="text-sm font-bold tracking-widest uppercase text-black/990 mb-2">
             Alinhamento de Expectativa
           </h4>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
