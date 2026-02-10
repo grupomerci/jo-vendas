@@ -19,19 +19,19 @@ export const Author = () => {
             </div>
           </div>
           {/* Decorative element behind */}
-          <div className="absolute -top-4 -right-4 w-full h-full border-2 border-lime-400/20 rounded-2xl -z-10"></div>
+          <div className="absolute -top-4 -right-4 w-full h-full border-2 border-[#C2FF73/20] rounded-2xl -z-10"></div>
           {/* Decorative element behind */}
-          <div className="absolute -top-4 -right-4 w-full h-full border-2 border-lime-400/20 rounded-2xl -z-10"></div>
+          <div className="absolute -top-4 -right-4 w-full h-full border-2 border-[#C2FF73/20] rounded-2xl -z-10"></div>
         </div>
 
         <div className="w-full md:w-2/3 space-y-8">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Muito prazer,{" "}
-              <span className="text-lime-400">Jorge Martínez Jr</span>
+              <span className="text-[#C2FF73]">Jorge Martínez Jr</span>
             </h2>
 
-            <div className="flex items-center gap-4 border-l-4 border-lime-400 pl-6 py-1">
+            <div className="flex items-center gap-4 border-l-4 border-[#C2FF73] pl-6 py-1">
               <p className="text-xl font-medium text-gray-200">
                 Sou empresário contábil e estrategista de negócios.
               </p>

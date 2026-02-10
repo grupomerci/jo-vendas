@@ -2,13 +2,13 @@ import { Check, ShieldCheck, Lock, Zap } from "lucide-react";
 
 export const Pricing = () => {
   return (
-    <section className="py-20 px-4 md:px-8 bg-[#141C2A] text-white">
+    <section className="py-20 px-4 md:px-8 text-white" style={{ backgroundImage: "radial-gradient(circle at 100% 0%, rgb(31, 41, 55), rgb(17, 24, 39), rgb(17, 24, 39))" }}>
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
         {/* Left Column */}
         <div className="space-y-10">
           <div className="space-y-4">
             <h2 className="text-3xl md:text-4xl font-bold leading-tight">
-              Eu preciso ser <span className="text-lime-400">sincero</span> com
+              Eu preciso ser <span className="text-[#C2FF73]">sincero</span> com
               você...
             </h2>
             <p className="text-gray-400 text-lg">
@@ -30,7 +30,7 @@ export const Pricing = () => {
                 key={index}
                 className="flex items-center gap-3 bg-gray-800/50 border border-gray-700 p-4 rounded-lg"
               >
-                <div className="text-lime-400">
+                <div className="text-[#C2FF73]">
                   <Check size={20} className="stroke-[3]" />
                 </div>
                 <span className="font-medium text-sm md:text-base">{item}</span>
@@ -38,11 +38,11 @@ export const Pricing = () => {
             ))}
           </div>
 
-          <div className="bg-gradient-to-r from-gray-800 to-transparent border-l-4 border-lime-400 p-6 rounded-r-lg">
+          <div className="bg-gradient-to-r from-gray-800 to-transparent border-l-4 border-[#C2FF73] p-6 rounded-r-lg">
             <h3 className="text-2xl font-bold text-white mb-1">
               Não fica fácil.
             </h3>
-            <h3 className="text-2xl font-bold text-lime-400 mb-2">
+            <h3 className="text-2xl font-bold text-[#C2FF73] mb-2">
               Mas fica organizado.
             </h3>
             <p className="text-sm tracking-widest uppercase text-gray-500 font-medium">
@@ -66,7 +66,7 @@ export const Pricing = () => {
           <div className="bg-white text-gray-900 rounded-3xl p-8 shadow-2xl relative z-10">
             <div className="text-center mb-8">
               <h4 className="text-xl font-bold mb-1">
-                Do Zero <span className="text-lime-500">ao Começo</span>
+                Do Zero <span className="text-[#C2FF73]">ao Começo</span>
               </h4>
               <p className="text-gray-500 font-medium">Guia Completo Digital</p>
             </div>
@@ -83,7 +83,7 @@ export const Pricing = () => {
                   R$47,90
                 </span>
               </div>
-              <p className="text-xs text-lime-600 font-bold uppercase tracking-wider mt-2">
+              <p className="text-xs text-[#C2FF73] font-bold uppercase tracking-wider mt-2">
                 Pagamento Único
               </p>
             </div>
@@ -98,7 +98,7 @@ export const Pricing = () => {
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm">
                   <Check
-                    className="text-lime-500 min-w-[18px] mt-0.5"
+                    className="text-[#C2FF73] min-w-[18px] mt-0.5"
                     size={18}
                   />
                   <span className="text-gray-600 font-medium">{item}</span>
@@ -106,7 +106,7 @@ export const Pricing = () => {
               ))}
             </ul>
 
-            <button className="w-full bg-lime-400 hover:bg-lime-500 text-black font-bold py-4 rounded-xl transition-all transform hover:scale-[1.02] shadow-lg mb-4">
+            <button className="w-full bg-[#C2FF73] hover:bg-[#C2FF73/90] text-black font-bold py-4 rounded-xl transition-all transform hover:scale-[1.02] shadow-lg mb-4">
               ACESSE O MATERIAL EXCLUSIVO
             </button>
 
@@ -124,7 +124,7 @@ export const Pricing = () => {
 
           {/* Guarantee Box */}
           <div className="mt-4 bg-gray-800/50 border border-gray-700 rounded-xl p-4 flex gap-4 items-start">
-            <div className="text-lime-400 mt-1">
+            <div className="text-[#C2FF73] mt-1">
               <ShieldCheck size={24} />
             </div>
             <div>

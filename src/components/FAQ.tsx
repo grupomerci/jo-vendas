@@ -5,27 +5,27 @@ const faqData = [
   {
     question: "O que é o Do Zero ao Começo?",
     answer:
-      "É um guia prático e direto para quem quer começar um negócio ou organizar um que já existe, focado nos 3 pilares essenciais: Estrutura, Finanças e Clientes.",
+      "É um e-book prático que mostra a ordem real para estruturar um negócio no início, sem romantização e sem promessas irreais.",
   },
   {
     question: "Para quem esse material é indicado?",
     answer:
-      "Para empreendedores iniciantes, profissionais liberais, autônomos e quem quer transformar uma ideia em um negócio real sem perder tempo.",
+      "Para quem está começando a empreender ou já começou, mas sente tudo confuso e quer organizar o básico antes de tentar crescer.",
   },
   {
     question: "Preciso ter CNPJ para aproveitar o conteúdo?",
     answer:
-      "Não. O guia aborda justamente o 'Ponto Zero', ajudando você a decidir o melhor momento para formalizar seu negócio e como fazer isso.",
+      "Não. O material serve tanto para quem ainda não formalizou quanto para quem já tem CNPJ ou MEI.",
   },
   {
     question: "Esse conteúdo é muito técnico?",
     answer:
-      "Zero técnico. A linguagem é simples, direta e feita para quem não é da área contábil ou administrativa.",
+      "Não. Tudo é explicado em linguagem simples, direta e fácil de entender.",
   },
   {
     question: "Funciona para qualquer tipo de negócio?",
     answer:
-      "Sim, os princípios de organização, precificação e vendas se aplicam a serviços, produtos físicos e negócios digitais.",
+      "Sim. Serve para negócios de produto, serviço, autônomos, MEI e pequenas empresas.",
   },
 ];
 
@@ -40,27 +40,27 @@ export const FAQ = () => {
     <section className="py-20 px-4 md:px-8 bg-white text-gray-900">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-12 h-12 bg-lime-100 rounded-full text-lime-600 mb-4">
+          <div className="inline-flex items-center justify-center w-12 h-12 bg-[#C2FF73/20] rounded-full text-[#C2FF73] mb-4 bg-white shadow">
             <HelpCircle size={24} />
           </div>
-          <h2 className="text-3xl font-bold text-gray-900">
+          <h2 className="text-xl md:text-3xl font-bold text-gray-900">
             Dúvidas Frequentes
           </h2>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-4 max-w-4xl mx-auto">
           {faqData.map((item, index) => (
             <div
               key={index}
-              className="border border-gray-200 rounded-lg overflow-hidden transition-all duration-200 hover:border-lime-400/50"
+              className="border border-gray-200 rounded-lg overflow-hidden transition-all duration-200 hover:border-[#C2FF73/50]"
             >
               <button
-                className="w-full flex items-center justify-between p-5 text-left bg-white hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-3 md:p-5 text-left bg-white hover:bg-gray-50 transition-colors"
                 onClick={() => toggleFAQ(index)}
               >
-                <span className="font-bold text-gray-800">{item.question}</span>
+                <span className="font-bold text-gray-800 text-sm md:text-base">{item.question}</span>
                 {openIndex === index ? (
-                  <ChevronUp className="text-lime-500" size={20} />
+                  <ChevronUp className="text-[#C2FF73]" size={20} />
                 ) : (
                   <ChevronDown className="text-gray-400" size={20} />
                 )}
@@ -73,8 +73,8 @@ export const FAQ = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <div className="p-5 pt-0 text-gray-600 bg-white border-t border-gray-100">
-                  {item.answer}
+                <div className="p-3 md:p-5 pt-0 md:pt-0 text-gray-600 bg-white border-t border-gray-100">
+                  <span className="text-xs md:text-base">{item.answer}</span>
                 </div>
               </div>
             </div>
