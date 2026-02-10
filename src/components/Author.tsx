@@ -1,6 +1,6 @@
 export const Author = () => {
   return (
-    <section className="py-20 px-4 md:px-8 bg-[#0F1115] text-white">
+    <section className="py-20 px-4 md:px-8 bg-[#111827] text-white">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Author Image Placeholder */}
         <div className="w-full md:w-1/3 relative">

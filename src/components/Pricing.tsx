@@ -2,7 +2,7 @@ import { Check, ShieldCheck, Lock, Zap } from "lucide-react";
 
 export const Pricing = () => {
   return (
-    <section className="py-20 px-4 md:px-8 bg-[#0F1115] text-white">
+    <section className="py-20 px-4 md:px-8 bg-[#141C2A] text-white">
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
         {/* Left Column */}
         <div className="space-y-10">
@@ -12,7 +12,8 @@ export const Pricing = () => {
               você...
             </h2>
             <p className="text-gray-400 text-lg">
-              Depois de ler o <strong className="text-white">Do Zero ao Começo</strong>, você:
+              Depois de ler o{" "}
+              <strong className="text-white">Do Zero ao Começo</strong>, você:
             </p>
           </div>
 
@@ -96,7 +97,10 @@ export const Pricing = () => {
                 "Linguagem simples, sem termos técnicos",
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm">
-                  <Check className="text-lime-500 min-w-[18px] mt-0.5" size={18} />
+                  <Check
+                    className="text-lime-500 min-w-[18px] mt-0.5"
+                    size={18}
+                  />
                   <span className="text-gray-600 font-medium">{item}</span>
                 </li>
               ))}
