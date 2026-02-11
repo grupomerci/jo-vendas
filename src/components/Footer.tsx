@@ -26,10 +26,10 @@ export const Footer = () => {
         {/* Logo / Badge */}
         <div className="bg-white/15 backdrop-blur px-6 py-4 rounded-lg">
           <span 
-            className="text-white text-2xl"
+            className="text-white text-2xl agrandir-font"
             style={{ 
-              fontFamily: 'PPAgrandirText-Bold, system-ui, sans-serif', 
-              fontWeight: 700 
+              fontFamily: "'PPAgrandirText-Bold', system-ui, sans-serif",
+              fontWeight: 700
             }}
           >
             Do Zero ao Começo
@@ -39,7 +39,7 @@ export const Footer = () => {
         {/* Texto + Links */}
         <div className="text-center md:text-right space-y-4">
           <p className="text-sm text-white/60">
-            © 2026 Do Zero ao Começo.
+            © 2026 <span className="agrandir-font" style={{ fontFamily: "'PPAgrandirText-Bold', system-ui, sans-serif", fontWeight: 700 }}>Do Zero ao Começo</span>.
             <br className="mb-2"/>
             Todos os direitos reservados.
           </p>

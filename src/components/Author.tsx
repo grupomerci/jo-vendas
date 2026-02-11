@@ -41,11 +41,11 @@ export const Author = () => {
           <div className="space-y-4 text-gray-400 leading-relaxed text-lg">
             <p>
               O{" "}
-              <strong
-                className="text-white"
-                style={{
-                  fontFamily: 'PPAgrandirText-Bold, system-ui, sans-serif',
-                  fontWeight: 700,
+              <strong 
+                className="text-[#C2FF73] agrandir-font"
+                style={{ 
+                  fontFamily: "'PPAgrandirText-Bold', system-ui, sans-serif",
+                  fontWeight: 700
                 }}
               >
                 Do Zero ao Começo

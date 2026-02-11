@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'title': ['AGrandir', 'system-ui', 'sans-serif'],
+        'title': ['PPAgrandirText-Bold', 'Poppins', 'system-ui', 'sans-serif'],
         'sans': ['Poppins', 'system-ui', 'sans-serif'],
       }
     }

@@ -45,7 +45,9 @@ export const Hero = () => {
             </div>
 
             {/* Título */}
-            <h1 className="text-5xl sm:text-5xl lg:text-7xl font-extrabold text-white max-md:mt-8">
+            <h1 
+              className="text-5xl sm:text-5xl lg:text-6xl font-extrabold text-white max-md:mt-8"
+            >
               Tire seu negócio do papel{" "}
               <span className="bg-gradient-to-r from-[#C2FF73] to-[#558925] bg-clip-text text-transparent">
                 do jeito certo

@@ -3,7 +3,7 @@ import { ChevronDown, ChevronUp, HelpCircle } from "lucide-react";
 
 const faqData = [
   {
-    question: "O que é o Do Zero ao Começo?",
+    question: "O que é o <span class='agrandir-font' style='font-family: \"PPAgrandirText-Bold\", system-ui, sans-serif; font-weight: 700'>Do Zero ao Começo</span>?",
     answer:
       "É um e-book prático que mostra a ordem real para estruturar um negócio no início, sem romantização e sem promessas irreais.",
   },
@@ -58,7 +58,7 @@ export const FAQ = () => {
                 className="w-full flex items-center justify-between p-3 md:p-5 text-left bg-white hover:bg-gray-50 transition-colors"
                 onClick={() => toggleFAQ(index)}
               >
-                <span className="font-bold text-gray-800 text-sm md:text-base">{item.question}</span>
+                <span className="font-bold text-gray-800 text-sm md:text-base" dangerouslySetInnerHTML={{ __html: item.question }}></span>
                 {openIndex === index ? (
                   <ChevronUp className="text-[#C2FF73]" size={20} />
                 ) : (

@@ -9,7 +9,7 @@ export const TargetAudience = () => {
             Alinhamento de Expectativa
           </h4>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            O Do Zero ao Começo é para você?
+            O <span className="agrandir-font" style={{ fontFamily: "'PPAgrandirText-Bold', system-ui, sans-serif", fontWeight: 700 }}>Do Zero ao Começo</span> é para você?
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             Este material não é para todo mundo. Veja se ele se encaixa no seu momento.

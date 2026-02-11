@@ -13,7 +13,7 @@ export const Pricing = () => {
             </h2>
             <p className="text-gray-400 text-lg">
               Depois de ler o{" "}
-              <strong className="text-white">Do Zero ao Começo</strong>, você:
+              <strong className="text-white agrandir-font" style={{ fontFamily: "'PPAgrandirText-Bold', system-ui, sans-serif", fontWeight: 700 }}>Do Zero ao Começo</strong>, você:
             </p>
           </div>
 
@@ -105,21 +105,28 @@ export const Pricing = () => {
             </div>
 
             <ul className="space-y-3 mb-8">
-              {[
-                "E-book completo Do Zero ao Começo",
-                "Conteúdo direto, prático e aplicável",
-                "Ordem real para começar um negócio",
-                "Estrutura mínima para não quebrar",
-                "Linguagem simples, sem termos técnicos",
-              ].map((item, index) => (
-                <li key={index} className="flex items-start gap-3 text-sm">
-                  <Check
-                    className="text-[#C2FF73] min-w-[18px] mt-0.5"
-                    size={18}
-                  />
-                  <span className="text-gray-600 font-medium">{item}</span>
+              <>
+                <li className="flex items-start gap-3 text-sm">
+                  <Check className="text-[#C2FF73] min-w-[18px] mt-0.5" size={18} />
+                  <span>E-book completo <span className="agrandir-font" style={{ fontFamily: "'PPAgrandirText-Bold', system-ui, sans-serif", fontWeight: 700 }}>Do Zero ao Começo</span></span>
                 </li>
-              ))}
+                <li className="flex items-start gap-3 text-sm">
+                  <Check className="text-[#C2FF73] min-w-[18px] mt-0.5" size={18} />
+                  <span>Conteúdo direto, prático e aplicável</span>
+                </li>
+                <li className="flex items-start gap-3 text-sm">
+                  <Check className="text-[#C2FF73] min-w-[18px] mt-0.5" size={18} />
+                  <span>Ordem real para começar um negócio</span>
+                </li>
+                <li className="flex items-start gap-3 text-sm">
+                  <Check className="text-[#C2FF73] min-w-[18px] mt-0.5" size={18} />
+                  <span>Estrutura mínima para não quebrar</span>
+                </li>
+                <li className="flex items-start gap-3 text-sm">
+                  <Check className="text-[#C2FF73] min-w-[18px] mt-0.5" size={18} />
+                  <span>Linguagem simples, sem termos técnicos</span>
+                </li>
+              </>
             </ul>
 
             <button className="w-full bg-[#C2FF73] hover:bg-[#C2FF73/90] text-black font-bold py-4 rounded-xl transition-all transform hover:scale-[1.02] shadow-lg mb-4">
