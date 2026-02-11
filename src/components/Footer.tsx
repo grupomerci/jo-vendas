@@ -5,7 +5,13 @@ export const Footer = () => {
         
         {/* Logo / Badge */}
         <div className="bg-white/15 backdrop-blur px-6 py-4 rounded-lg">
-          <span className="text-white font-extrabold text-2xl">
+          <span 
+            className="text-white font-extrabold text-2xl"
+            style={{ 
+              fontFamily: 'AGrandir-Dynamic, system-ui, sans-serif', 
+              fontWeight: 800 
+            }}
+          >
             Do Zero ao Começo
           </span>
         </div>

@@ -73,7 +73,7 @@ export const FAQ = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <div className="p-3 md:p-5 pt-0 md:pt-0 text-gray-600 bg-white border-t border-gray-100">
+                <div className="p-3 md:p-5 pt-4 md:pt-4 text-gray-600 bg-white border-t border-gray-100">
                   <span className="text-xs md:text-base">{item.answer}</span>
                 </div>
               </div>
