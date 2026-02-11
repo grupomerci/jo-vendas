@@ -1,4 +1,24 @@
+import { useEffect } from "react";
+
 export const Footer = () => {
+  useEffect(() => {
+    const style = document.createElement('style');
+    style.textContent = `
+      @font-face {
+        font-family: 'AGrandir-Dynamic';
+        src: url('/src/assets/fonts/PPAgrandirText-Bold.otf') format('opentype');
+        font-weight: 800;
+        font-style: normal;
+        font-display: swap;
+      }
+    `;
+    document.head.appendChild(style);
+    
+    return () => {
+      document.head.removeChild(style);
+    };
+  }, []);
+
   return (
     <footer className="bg-gradient-to-r from-[#0B1220] via-[#0E1627] to-[#0B1220] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
@@ -6,10 +26,10 @@ export const Footer = () => {
         {/* Logo / Badge */}
         <div className="bg-white/15 backdrop-blur px-6 py-4 rounded-lg">
           <span 
-            className="text-white font-extrabold text-2xl"
+            className="text-white text-2xl"
             style={{ 
-              fontFamily: 'AGrandir-Dynamic, system-ui, sans-serif', 
-              fontWeight: 800 
+              fontFamily: 'PPAgrandirText-Bold, system-ui, sans-serif', 
+              fontWeight: 700 
             }}
           >
             Do Zero ao Começo

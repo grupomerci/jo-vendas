@@ -7,7 +7,7 @@ export const Hero = () => {
     style.textContent = `
       @font-face {
         font-family: 'AGrandir-Dynamic';
-        src: url('/fonte.otf') format('opentype');
+        src: url('/src/assets/fonts/PPAgrandirText-Bold.otf') format('opentype');
         font-weight: 800;
         font-style: normal;
         font-display: swap;
@@ -45,13 +45,7 @@ export const Hero = () => {
             </div>
 
             {/* Título */}
-            <h1 
-              className="text-5xl sm:text-5xl lg:text-6xl font-extrabold text-white max-md:mt-8"
-              style={{ 
-                fontFamily: 'AGrandir-Dynamic, system-ui, sans-serif', 
-                fontWeight: 800 
-              }}
-            >
+            <h1 className="text-5xl sm:text-5xl lg:text-7xl font-extrabold text-white max-md:mt-8">
               Tire seu negócio do papel{" "}
               <span className="bg-gradient-to-r from-[#C2FF73] to-[#558925] bg-clip-text text-transparent">
                 do jeito certo

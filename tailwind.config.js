@@ -6,7 +6,7 @@ export default {
     extend: {
       fontFamily: {
         'title': ['AGrandir', 'system-ui', 'sans-serif'],
-        'sans': ['Montserrat', 'system-ui', 'sans-serif'],
+        'sans': ['Poppins', 'system-ui', 'sans-serif'],
       }
     }
   }

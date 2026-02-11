@@ -66,7 +66,23 @@ export const Pricing = () => {
           <div className="bg-white text-gray-900 rounded-3xl p-8 shadow-2xl relative z-10">
             <div className="text-center mb-8">
               <h4 className="text-xl font-bold mb-1">
-                Do Zero <span className="text-[#C2FF73]">ao Começo</span>
+                <span
+                  style={{
+                    fontFamily: 'PPAgrandirText-Bold, system-ui, sans-serif',
+                    fontWeight: 700,
+                  }}
+                >
+                  Do Zero
+                </span>{" "}
+                <span
+                  className="text-[#C2FF73]"
+                  style={{
+                    fontFamily: 'PPAgrandirText-Bold, system-ui, sans-serif',
+                    fontWeight: 700,
+                  }}
+                >
+                  ao Começo
+                </span>
               </h4>
               <p className="text-gray-500 font-medium">Guia Completo Digital</p>
             </div>

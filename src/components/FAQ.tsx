@@ -40,7 +40,7 @@ export const FAQ = () => {
     <section className="py-20 px-4 md:px-8 bg-white text-gray-900">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-12 h-12 bg-[#C2FF73/20] rounded-full text-[#C2FF73] mb-4 bg-white shadow">
+          <div className="inline-flex items-center justify-center w-12 h-12 bg-[#C2FF7320] rounded-full text-[#C2FF73] mb-4 bg-white shadow">
             <HelpCircle size={24} />
           </div>
           <h2 className="text-xl md:text-3xl font-bold text-gray-900">

@@ -40,7 +40,17 @@ export const Author = () => {
 
           <div className="space-y-4 text-gray-400 leading-relaxed text-lg">
             <p>
-              O <strong className="text-white">Do Zero ao Começo</strong> nasceu
+              O{" "}
+              <strong
+                className="text-white"
+                style={{
+                  fontFamily: 'PPAgrandirText-Bold, system-ui, sans-serif',
+                  fontWeight: 700,
+                }}
+              >
+                Do Zero ao Começo
+              </strong>{" "}
+              nasceu
               porque eu vi, na prática, gente boa desistindo achando que o
               problema era falta de talento quando, na verdade, ninguém nunca
               mostrou o caminho real do começo.
