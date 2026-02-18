@@ -129,9 +129,14 @@ export const Pricing = () => {
               </>
             </ul>
 
-            <button className="w-full bg-[#C2FF73] hover:bg-[#C2FF73/90] text-black font-bold py-4 rounded-xl transition-all transform hover:scale-[1.02] shadow-lg mb-4">
+            <a 
+              href="https://pay.hotmart.com/U104025029F?checkoutMode=10" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block w-full bg-[#C2FF73] hover:bg-[#C2FF73/90] text-black font-bold py-4 rounded-xl transition-all transform hover:scale-[1.02] shadow-lg mb-4 text-center"
+            >
               ACESSE O MATERIAL EXCLUSIVO
-            </button>
+            </a>
 
             <div className="flex justify-center gap-4 text-[10px] text-gray-400 uppercase font-bold tracking-wider">
               <div className="flex items-center gap-1">

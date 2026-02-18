@@ -60,10 +60,15 @@ export const Hero = () => {
             </p>
 
             {/* CTA */}
-            <button className="w-full max-md:mt-12 sm:w-auto mx-auto lg:mx-0 bg-[#C2FF73] hover:bg-[#C2FF73]/90 text-black font-bold py-4 px-8 rounded-lg transition-all transform hover:scale-105 flex items-center justify-center gap-2 text-base sm:text-lg shadow-[0_0_25px_rgba(194,255,115,0.25)]">
+            <a 
+              href="https://pay.hotmart.com/U104025029F?checkoutMode=10" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full max-md:mt-12 sm:w-auto mx-auto lg:mx-0 bg-[#C2FF73] hover:bg-[#C2FF73]/90 text-black font-bold py-4 px-8 rounded-lg transition-all transform hover:scale-105 flex items-center justify-center gap-2 text-base sm:text-lg shadow-[0_0_25px_rgba(194,255,115,0.25)]"
+            >
               ACESSAR MATERIAL EXCLUSIVO
               <ArrowRight size={20} />
-            </button>
+            </a>
 
             {/* Divider */}
             <hr className="border-[#C2FF73]/20" />
