@@ -96,7 +96,7 @@ export const Pricing = () => {
                   Por apenas
                 </span>
                 <span className="text-4xl font-black text-gray-900">
-                  R$39,90
+                  R$37,90
                 </span>
               </div>
               <p className="text-xs text-[#C2FF73] font-bold uppercase tracking-wider mt-2">
