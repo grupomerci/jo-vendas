@@ -91,7 +91,7 @@ export const Hero = () => {
           </div>
 
           {/* Imagem */}
-          <div className="flex justify-center lg:justify-end max-md:pb-20">
+          <div className="hidden lg:flex justify-center lg:justify-end">
             <img
               src="/img-home.png"
               alt="Do Zero ao Começo - Guia Prático"

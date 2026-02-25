@@ -1,3 +1,5 @@
+import { ArrowRight } from "lucide-react";
+
 export const Author = () => {
   return (
     <section className="py-20 px-4 md:px-8 bg-[#111827] text-white">
@@ -67,6 +69,18 @@ export const Author = () => {
               É o material que eu gostaria que tivessem colocado na minha mão
               quando tudo ainda estava confuso.
             </p>
+          </div>
+
+          <div className="mt-8">
+            <a 
+              href="https://pay.hotmart.com/U104025029F?checkoutMode=10" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#C2FF73] hover:bg-[#C2FF73]/90 text-black font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105 shadow-lg"
+            >
+              ACESSAR MATERIAL EXCLUSIVO
+              <ArrowRight size={18} />
+            </a>
           </div>
         </div>
       </div>

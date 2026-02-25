@@ -1,4 +1,4 @@
-import { BookOpen, Calculator, Target, CheckCircle2 } from "lucide-react";
+import { BookOpen, Calculator, Target, CheckCircle2, ArrowRight } from "lucide-react";
 
 export const Content = () => {
   return (
@@ -149,6 +149,18 @@ export const Content = () => {
               Gestão de Crise
             </span>
           </div>
+        </div>
+
+        <div className="text-center mt-12">
+          <a 
+            href="https://pay.hotmart.com/U104025029F?checkoutMode=10" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-[#C2FF73] hover:bg-[#C2FF73]/90 text-black font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105 shadow-lg"
+          >
+            ACESSAR MATERIAL EXCLUSIVO
+            <ArrowRight size={18} />
+          </a>
         </div>
       </div>
     </section>

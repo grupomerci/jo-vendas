@@ -1,4 +1,4 @@
-import { Check, X } from "lucide-react";
+import { Check, X, ArrowRight } from "lucide-react";
 
 export const TargetAudience = () => {
   return (
@@ -79,6 +79,18 @@ export const TargetAudience = () => {
               Se você sente que "tá tudo meio embolado", mas quer organizar o
               começo para não quebrar lá na frente, este guia é para você.
             </p>
+          </div>
+          
+          <div className="mt-8">
+            <a 
+              href="https://pay.hotmart.com/U104025029F?checkoutMode=10" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105 shadow-lg border border-gray-700"
+            >
+              ACESSAR MATERIAL EXCLUSIVO
+              <ArrowRight size={18} />
+            </a>
           </div>
         </div>
       </div>
