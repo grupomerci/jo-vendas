@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronDown, ChevronUp, HelpCircle, ArrowRight } from "lucide-react";
+import { ChevronDown, ChevronUp, HelpCircle } from "lucide-react";
 
 const faqData = [
   {
@@ -79,21 +79,6 @@ export const FAQ = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <p className="text-gray-600 mb-4 max-w-2xl mx-auto">
-            Pronto para organizar seu negócio do jeito certo?
-          </p>
-          <a 
-            href="https://pay.hotmart.com/U104025029F?checkoutMode=10" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 border-2 border-[#C2FF73] hover:bg-[#C2FF73] hover:text-black text-[#C2FF73] font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105"
-          >
-            ACESSAR MATERIAL EXCLUSIVO
-            <ArrowRight size={18} />
-          </a>
         </div>
       </div>
     </section>

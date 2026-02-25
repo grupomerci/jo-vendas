@@ -2,7 +2,7 @@ import { Check, ShieldCheck, Lock, Zap } from "lucide-react";
 
 export const Pricing = () => {
   return (
-    <section className="py-20 px-4 md:px-8 text-white" style={{ backgroundImage: "radial-gradient(circle at 100% 0%, rgb(31, 41, 55), rgb(17, 24, 39), rgb(17, 24, 39))" }}>
+    <section id="pricing" className="py-20 px-4 md:px-8 text-white" style={{ backgroundImage: "radial-gradient(circle at 100% 0%, rgb(31, 41, 55), rgb(17, 24, 39), rgb(17, 24, 39))" }}>
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
         {/* Left Column */}
         <div className="space-y-10">

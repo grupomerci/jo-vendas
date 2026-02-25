@@ -83,9 +83,7 @@ export const TargetAudience = () => {
           
           <div className="mt-8">
             <a 
-              href="https://pay.hotmart.com/U104025029F?checkoutMode=10" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              href="#pricing" 
               className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105 shadow-lg border border-gray-700"
             >
               ACESSAR MATERIAL EXCLUSIVO
