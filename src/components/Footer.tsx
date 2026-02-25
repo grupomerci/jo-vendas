@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Instagram } from "lucide-react";
 
 export const Footer = () => {
   useEffect(() => {
@@ -21,43 +22,40 @@ export const Footer = () => {
 
   return (
     <footer className="bg-gradient-to-r from-[#0B1220] via-[#0E1627] to-[#0B1220] border-t border-white/10">
-      <div className="max-w-7xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col items-center gap-8">
         
-        {/* Logo / Badge */}
-        <div className="bg-white/15 backdrop-blur px-6 py-4 rounded-lg">
-          <span 
-            className="text-white text-2xl agrandir-font"
-            style={{ 
-              fontFamily: "'PPAgrandirText-Bold', system-ui, sans-serif",
-              fontWeight: 700
-            }}
+        {/* Logo + Instagram */}
+        <div className="flex items-center justify-between w-full">
+          <div className="bg-white/15 backdrop-blur px-6 py-4 rounded-lg">
+            <span 
+              className="text-white text-2xl agrandir-font"
+              style={{ 
+                fontFamily: "'PPAgrandirText-Bold', system-ui, sans-serif",
+                fontWeight: 700
+              }}
+            >
+              Do Zero ao Começo
+            </span>
+          </div>
+          
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/60 hover:text-white transition-colors"
           >
-            Do Zero ao Começo
-          </span>
+            <Instagram size={24} />
+          </a>
         </div>
 
-        {/* Texto + Links */}
-        <div className="text-center md:text-right space-y-4">
-          <p className="text-sm text-white/60">
-            © 2026 <span className="agrandir-font" style={{ fontFamily: "'PPAgrandirText-Bold', system-ui, sans-serif", fontWeight: 700 }}>Do Zero ao Começo</span>.
-            <br className="mb-2"/>
-            Todos os direitos reservados.
-          </p>
+        {/* Divisória */}
+        <div className="w-full border-t border-white/10"></div>
 
-          <div className="flex gap-4 justify-center md:justify-end text-[13px] text-white/60">
-            <a
-              href="#"
-              className="hover:text-white transition-colors"
-            >
-              Termos de Uso
-            </a>
-            <a
-              href="#"
-              className="hover:text-white transition-colors"
-            >
-              Políticas de Privacidade
-            </a>
-          </div>
+        {/* Copyright */}
+        <div className="text-center text-sm text-white/60 flex flex-col md:flex-row items-center justify-center gap-2">
+          <span>© 2026 Do Zero ao Começo.</span>
+          <span className="hidden md:inline-block w-1 h-1 bg-white/40 rounded-full"></span>
+          <span>Todos os direitos reservados.</span>
         </div>
 
       </div>
