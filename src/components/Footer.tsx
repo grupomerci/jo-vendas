@@ -39,7 +39,7 @@ export const Footer = () => {
           </div>
           
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/jorg1nho"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white/60 hover:text-white transition-colors"
